@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B19D719161E1404005F4A69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19D718161E1404005F4A69 /* Cocoa.framework */; };
+		5B19D723161E1404005F4A69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B19D721161E1404005F4A69 /* InfoPlist.strings */; };
+		5B19D727161E1404005F4A69 /* MachOKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D726161E1404005F4A69 /* MachOKit.m */; };
+		5B19D72F161E1404005F4A69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19D72E161E1404005F4A69 /* SenTestingKit.framework */; };
+		5B19D730161E1404005F4A69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19D718161E1404005F4A69 /* Cocoa.framework */; };
+		5B19D733161E1404005F4A69 /* MachOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19D715161E1404005F4A69 /* MachOKit.framework */; };
+		5B19D739161E1404005F4A69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B19D737161E1404005F4A69 /* InfoPlist.strings */; };
+		5B19D73C161E1404005F4A69 /* MachOKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D73B161E1404005F4A69 /* MachOKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B19D731161E1404005F4A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B19D70B161E1404005F4A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B19D714161E1404005F4A69;
+			remoteInfo = MachOKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B19D715161E1404005F4A69 /* MachOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MachOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B19D718161E1404005F4A69 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5B19D71B161E1404005F4A69 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B19D71C161E1404005F4A69 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B19D71D161E1404005F4A69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B19D720161E1404005F4A69 /* MachOKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MachOKit-Info.plist"; sourceTree = "<group>"; };
+		5B19D722161E1404005F4A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B19D724161E1404005F4A69 /* MachOKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MachOKit-Prefix.pch"; sourceTree = "<group>"; };
+		5B19D725161E1404005F4A69 /* MachOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MachOKit.h; sourceTree = "<group>"; };
+		5B19D726161E1404005F4A69 /* MachOKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachOKit.m; sourceTree = "<group>"; };
+		5B19D72D161E1404005F4A69 /* MachOKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachOKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B19D72E161E1404005F4A69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B19D736161E1404005F4A69 /* MachOKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MachOKitTests-Info.plist"; sourceTree = "<group>"; };
+		5B19D738161E1404005F4A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B19D73A161E1404005F4A69 /* MachOKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MachOKitTests.h; sourceTree = "<group>"; };
+		5B19D73B161E1404005F4A69 /* MachOKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachOKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B19D711161E1404005F4A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D719161E1404005F4A69 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B19D729161E1404005F4A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D72F161E1404005F4A69 /* SenTestingKit.framework in Frameworks */,
+				5B19D730161E1404005F4A69 /* Cocoa.framework in Frameworks */,
+				5B19D733161E1404005F4A69 /* MachOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B19D709161E1404005F4A69 = {
+			isa = PBXGroup;
+			children = (
+				5B19D71E161E1404005F4A69 /* MachOKit */,
+				5B19D734161E1404005F4A69 /* MachOKitTests */,
+				5B19D717161E1404005F4A69 /* Frameworks */,
+				5B19D716161E1404005F4A69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B19D716161E1404005F4A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D715161E1404005F4A69 /* MachOKit.framework */,
+				5B19D72D161E1404005F4A69 /* MachOKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B19D717161E1404005F4A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D718161E1404005F4A69 /* Cocoa.framework */,
+				5B19D72E161E1404005F4A69 /* SenTestingKit.framework */,
+				5B19D71A161E1404005F4A69 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B19D71A161E1404005F4A69 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D71B161E1404005F4A69 /* AppKit.framework */,
+				5B19D71C161E1404005F4A69 /* CoreData.framework */,
+				5B19D71D161E1404005F4A69 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B19D71E161E1404005F4A69 /* MachOKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D725161E1404005F4A69 /* MachOKit.h */,
+				5B19D726161E1404005F4A69 /* MachOKit.m */,
+				5B19D71F161E1404005F4A69 /* Supporting Files */,
+			);
+			path = MachOKit;
+			sourceTree = "<group>";
+		};
+		5B19D71F161E1404005F4A69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D720161E1404005F4A69 /* MachOKit-Info.plist */,
+				5B19D721161E1404005F4A69 /* InfoPlist.strings */,
+				5B19D724161E1404005F4A69 /* MachOKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B19D734161E1404005F4A69 /* MachOKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D73A161E1404005F4A69 /* MachOKitTests.h */,
+				5B19D73B161E1404005F4A69 /* MachOKitTests.m */,
+				5B19D735161E1404005F4A69 /* Supporting Files */,
+			);
+			path = MachOKitTests;
+			sourceTree = "<group>";
+		};
+		5B19D735161E1404005F4A69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D736161E1404005F4A69 /* MachOKitTests-Info.plist */,
+				5B19D737161E1404005F4A69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B19D712161E1404005F4A69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B19D714161E1404005F4A69 /* MachOKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B19D73F161E1404005F4A69 /* Build configuration list for PBXNativeTarget "MachOKit" */;
+			buildPhases = (
+				5B19D710161E1404005F4A69 /* Sources */,
+				5B19D711161E1404005F4A69 /* Frameworks */,
+				5B19D712161E1404005F4A69 /* Headers */,
+				5B19D713161E1404005F4A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachOKit;
+			productName = MachOKit;
+			productReference = 5B19D715161E1404005F4A69 /* MachOKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B19D72C161E1404005F4A69 /* MachOKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B19D742161E1404005F4A69 /* Build configuration list for PBXNativeTarget "MachOKitTests" */;
+			buildPhases = (
+				5B19D728161E1404005F4A69 /* Sources */,
+				5B19D729161E1404005F4A69 /* Frameworks */,
+				5B19D72A161E1404005F4A69 /* Resources */,
+				5B19D72B161E1404005F4A69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B19D732161E1404005F4A69 /* PBXTargetDependency */,
+			);
+			name = MachOKitTests;
+			productName = MachOKitTests;
+			productReference = 5B19D72D161E1404005F4A69 /* MachOKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B19D70B161E1404005F4A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Martin Johannesson";
+			};
+			buildConfigurationList = 5B19D70E161E1404005F4A69 /* Build configuration list for PBXProject "MachOKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B19D709161E1404005F4A69;
+			productRefGroup = 5B19D716161E1404005F4A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B19D714161E1404005F4A69 /* MachOKit */,
+				5B19D72C161E1404005F4A69 /* MachOKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B19D713161E1404005F4A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D723161E1404005F4A69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B19D72A161E1404005F4A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D739161E1404005F4A69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B19D72B161E1404005F4A69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B19D710161E1404005F4A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D727161E1404005F4A69 /* MachOKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B19D728161E1404005F4A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B19D73C161E1404005F4A69 /* MachOKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B19D732161E1404005F4A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B19D714161E1404005F4A69 /* MachOKit */;
+			targetProxy = 5B19D731161E1404005F4A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B19D721161E1404005F4A69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B19D722161E1404005F4A69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B19D737161E1404005F4A69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B19D738161E1404005F4A69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B19D73D161E1404005F4A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B19D73E161E1404005F4A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B19D740161E1404005F4A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MachOKit/MachOKit-Prefix.pch";
+				INFOPLIST_FILE = "MachOKit/MachOKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		5B19D741161E1404005F4A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MachOKit/MachOKit-Prefix.pch";
+				INFOPLIST_FILE = "MachOKit/MachOKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		5B19D743161E1404005F4A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MachOKit/MachOKit-Prefix.pch";
+				INFOPLIST_FILE = "MachOKitTests/MachOKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5B19D744161E1404005F4A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MachOKit/MachOKit-Prefix.pch";
+				INFOPLIST_FILE = "MachOKitTests/MachOKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B19D70E161E1404005F4A69 /* Build configuration list for PBXProject "MachOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19D73D161E1404005F4A69 /* Debug */,
+				5B19D73E161E1404005F4A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B19D73F161E1404005F4A69 /* Build configuration list for PBXNativeTarget "MachOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19D740161E1404005F4A69 /* Debug */,
+				5B19D741161E1404005F4A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B19D742161E1404005F4A69 /* Build configuration list for PBXNativeTarget "MachOKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B19D743161E1404005F4A69 /* Debug */,
+				5B19D744161E1404005F4A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B19D70B161E1404005F4A69 /* Project object */;
+}
