@@ -15,6 +15,32 @@
 		5B19D733161E1404005F4A69 /* MachOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B19D715161E1404005F4A69 /* MachOKit.framework */; };
 		5B19D739161E1404005F4A69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B19D737161E1404005F4A69 /* InfoPlist.strings */; };
 		5B19D73C161E1404005F4A69 /* MachOKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D73B161E1404005F4A69 /* MachOKitTests.m */; };
+		5B19D748161E1529005F4A69 /* MOMemoryMappedFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D746161E1529005F4A69 /* MOMemoryMappedFile.h */; };
+		5B19D749161E1529005F4A69 /* MOMemoryMappedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D747161E1529005F4A69 /* MOMemoryMappedFile.m */; };
+		5B19D74D161E179A005F4A69 /* MOBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D74B161E179A005F4A69 /* MOBinary.h */; };
+		5B19D74E161E179A005F4A69 /* MOBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D74C161E179A005F4A69 /* MOBinary.m */; };
+		5B19D763161E2559005F4A69 /* MOMachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D761161E2559005F4A69 /* MOMachO.h */; };
+		5B19D764161E2559005F4A69 /* MOMachO.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D762161E2559005F4A69 /* MOMachO.m */; };
+		5B19D767161E2801005F4A69 /* MOMachOSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D765161E2801005F4A69 /* MOMachOSection.h */; };
+		5B19D768161E2801005F4A69 /* MOMachOSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D766161E2801005F4A69 /* MOMachOSection.m */; };
+		5B19D76C161E28F2005F4A69 /* MOMachOLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D76A161E28F2005F4A69 /* MOMachOLoadCommand.h */; };
+		5B19D76D161E28F2005F4A69 /* MOMachOLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D76B161E28F2005F4A69 /* MOMachOLoadCommand.m */; };
+		5B19D770161E2976005F4A69 /* MOMachOUUIDLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D76E161E2976005F4A69 /* MOMachOUUIDLoadCommand.h */; };
+		5B19D771161E2976005F4A69 /* MOMachOUUIDLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D76F161E2976005F4A69 /* MOMachOUUIDLoadCommand.m */; };
+		5B19D774161E298D005F4A69 /* MOMachOiOSVersionMinLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D772161E298D005F4A69 /* MOMachOiOSVersionMinLoadCommand.h */; };
+		5B19D778161E29A9005F4A69 /* MOMachOSymtabLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D776161E29A9005F4A69 /* MOMachOSymtabLoadCommand.h */; };
+		5B19D779161E29A9005F4A69 /* MOMachOSymtabLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D777161E29A9005F4A69 /* MOMachOSymtabLoadCommand.m */; };
+		5B19D77C161E29BB005F4A69 /* MOMachOLoadCommandFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D77A161E29BB005F4A69 /* MOMachOLoadCommandFactory.h */; };
+		5B19D77D161E29BB005F4A69 /* MOMachOLoadCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D77B161E29BB005F4A69 /* MOMachOLoadCommandFactory.m */; };
+		5B19D781161E2C17005F4A69 /* MOMachOSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D77F161E2C17005F4A69 /* MOMachOSymbol.h */; };
+		5B19D782161E2C17005F4A69 /* MOMachOSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D780161E2C17005F4A69 /* MOMachOSymbol.m */; };
+		5B19D785161E2D59005F4A69 /* MOMachOSymbolTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D783161E2D58005F4A69 /* MOMachOSymbolTable.h */; };
+		5B19D786161E2D59005F4A69 /* MOMachOSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D784161E2D58005F4A69 /* MOMachOSymbolTable.m */; };
+		5B19D788161E336C005F4A69 /* MOMachOiOSVersionMinLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D787161E336B005F4A69 /* MOMachOiOSVersionMinLoadCommand.m */; };
+		5B19D78B161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D789161E3566005F4A69 /* MOMachOOSXVersionMinLoadCommand.h */; };
+		5B19D78C161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D78A161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.m */; };
+		5B19D78F161E3629005F4A69 /* MOMachOSegmentLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B19D78D161E3628005F4A69 /* MOMachOSegmentLoadCommand.h */; };
+		5B19D790161E3629005F4A69 /* MOMachOSegmentLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B19D78E161E3629005F4A69 /* MOMachOSegmentLoadCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +70,32 @@
 		5B19D738161E1404005F4A69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B19D73A161E1404005F4A69 /* MachOKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MachOKitTests.h; sourceTree = "<group>"; };
 		5B19D73B161E1404005F4A69 /* MachOKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachOKitTests.m; sourceTree = "<group>"; };
+		5B19D746161E1529005F4A69 /* MOMemoryMappedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMemoryMappedFile.h; sourceTree = "<group>"; };
+		5B19D747161E1529005F4A69 /* MOMemoryMappedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMemoryMappedFile.m; sourceTree = "<group>"; };
+		5B19D74B161E179A005F4A69 /* MOBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBinary.h; sourceTree = "<group>"; };
+		5B19D74C161E179A005F4A69 /* MOBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOBinary.m; sourceTree = "<group>"; };
+		5B19D761161E2559005F4A69 /* MOMachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachO.h; sourceTree = "<group>"; };
+		5B19D762161E2559005F4A69 /* MOMachO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachO.m; sourceTree = "<group>"; };
+		5B19D765161E2801005F4A69 /* MOMachOSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOSection.h; sourceTree = "<group>"; };
+		5B19D766161E2801005F4A69 /* MOMachOSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOSection.m; sourceTree = "<group>"; };
+		5B19D76A161E28F2005F4A69 /* MOMachOLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOLoadCommand.h; sourceTree = "<group>"; };
+		5B19D76B161E28F2005F4A69 /* MOMachOLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOLoadCommand.m; sourceTree = "<group>"; };
+		5B19D76E161E2976005F4A69 /* MOMachOUUIDLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOUUIDLoadCommand.h; sourceTree = "<group>"; };
+		5B19D76F161E2976005F4A69 /* MOMachOUUIDLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOUUIDLoadCommand.m; sourceTree = "<group>"; };
+		5B19D772161E298D005F4A69 /* MOMachOiOSVersionMinLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOiOSVersionMinLoadCommand.h; sourceTree = "<group>"; };
+		5B19D776161E29A9005F4A69 /* MOMachOSymtabLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOSymtabLoadCommand.h; sourceTree = "<group>"; };
+		5B19D777161E29A9005F4A69 /* MOMachOSymtabLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOSymtabLoadCommand.m; sourceTree = "<group>"; };
+		5B19D77A161E29BB005F4A69 /* MOMachOLoadCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOLoadCommandFactory.h; sourceTree = "<group>"; };
+		5B19D77B161E29BB005F4A69 /* MOMachOLoadCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOLoadCommandFactory.m; sourceTree = "<group>"; };
+		5B19D77F161E2C17005F4A69 /* MOMachOSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOSymbol.h; sourceTree = "<group>"; };
+		5B19D780161E2C17005F4A69 /* MOMachOSymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOSymbol.m; sourceTree = "<group>"; };
+		5B19D783161E2D58005F4A69 /* MOMachOSymbolTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOSymbolTable.h; sourceTree = "<group>"; };
+		5B19D784161E2D58005F4A69 /* MOMachOSymbolTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOSymbolTable.m; sourceTree = "<group>"; };
+		5B19D787161E336B005F4A69 /* MOMachOiOSVersionMinLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOiOSVersionMinLoadCommand.m; sourceTree = "<group>"; };
+		5B19D789161E3566005F4A69 /* MOMachOOSXVersionMinLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOOSXVersionMinLoadCommand.h; sourceTree = "<group>"; };
+		5B19D78A161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOOSXVersionMinLoadCommand.m; sourceTree = "<group>"; };
+		5B19D78D161E3628005F4A69 /* MOMachOSegmentLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMachOSegmentLoadCommand.h; sourceTree = "<group>"; };
+		5B19D78E161E3629005F4A69 /* MOMachOSegmentLoadCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMachOSegmentLoadCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +162,8 @@
 		5B19D71E161E1404005F4A69 /* MachOKit */ = {
 			isa = PBXGroup;
 			children = (
+				5B19D74A161E1757005F4A69 /* Mach-O */,
+				5B19D745161E1509005F4A69 /* Utils */,
 				5B19D725161E1404005F4A69 /* MachOKit.h */,
 				5B19D726161E1404005F4A69 /* MachOKit.m */,
 				5B19D71F161E1404005F4A69 /* Supporting Files */,
@@ -146,6 +200,62 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5B19D745161E1509005F4A69 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D746161E1529005F4A69 /* MOMemoryMappedFile.h */,
+				5B19D747161E1529005F4A69 /* MOMemoryMappedFile.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		5B19D74A161E1757005F4A69 /* Mach-O */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D74B161E179A005F4A69 /* MOBinary.h */,
+				5B19D74C161E179A005F4A69 /* MOBinary.m */,
+				5B19D761161E2559005F4A69 /* MOMachO.h */,
+				5B19D762161E2559005F4A69 /* MOMachO.m */,
+				5B19D765161E2801005F4A69 /* MOMachOSection.h */,
+				5B19D766161E2801005F4A69 /* MOMachOSection.m */,
+				5B19D77E161E2C0A005F4A69 /* Symbols */,
+				5B19D769161E28D8005F4A69 /* Load Commands */,
+			);
+			name = "Mach-O";
+			sourceTree = "<group>";
+		};
+		5B19D769161E28D8005F4A69 /* Load Commands */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D77A161E29BB005F4A69 /* MOMachOLoadCommandFactory.h */,
+				5B19D77B161E29BB005F4A69 /* MOMachOLoadCommandFactory.m */,
+				5B19D76A161E28F2005F4A69 /* MOMachOLoadCommand.h */,
+				5B19D76B161E28F2005F4A69 /* MOMachOLoadCommand.m */,
+				5B19D76E161E2976005F4A69 /* MOMachOUUIDLoadCommand.h */,
+				5B19D76F161E2976005F4A69 /* MOMachOUUIDLoadCommand.m */,
+				5B19D772161E298D005F4A69 /* MOMachOiOSVersionMinLoadCommand.h */,
+				5B19D787161E336B005F4A69 /* MOMachOiOSVersionMinLoadCommand.m */,
+				5B19D789161E3566005F4A69 /* MOMachOOSXVersionMinLoadCommand.h */,
+				5B19D78A161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.m */,
+				5B19D776161E29A9005F4A69 /* MOMachOSymtabLoadCommand.h */,
+				5B19D777161E29A9005F4A69 /* MOMachOSymtabLoadCommand.m */,
+				5B19D78D161E3628005F4A69 /* MOMachOSegmentLoadCommand.h */,
+				5B19D78E161E3629005F4A69 /* MOMachOSegmentLoadCommand.m */,
+			);
+			name = "Load Commands";
+			sourceTree = "<group>";
+		};
+		5B19D77E161E2C0A005F4A69 /* Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				5B19D77F161E2C17005F4A69 /* MOMachOSymbol.h */,
+				5B19D780161E2C17005F4A69 /* MOMachOSymbol.m */,
+				5B19D783161E2D58005F4A69 /* MOMachOSymbolTable.h */,
+				5B19D784161E2D58005F4A69 /* MOMachOSymbolTable.m */,
+			);
+			name = Symbols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +263,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B19D748161E1529005F4A69 /* MOMemoryMappedFile.h in Headers */,
+				5B19D74D161E179A005F4A69 /* MOBinary.h in Headers */,
+				5B19D763161E2559005F4A69 /* MOMachO.h in Headers */,
+				5B19D767161E2801005F4A69 /* MOMachOSection.h in Headers */,
+				5B19D76C161E28F2005F4A69 /* MOMachOLoadCommand.h in Headers */,
+				5B19D770161E2976005F4A69 /* MOMachOUUIDLoadCommand.h in Headers */,
+				5B19D774161E298D005F4A69 /* MOMachOiOSVersionMinLoadCommand.h in Headers */,
+				5B19D778161E29A9005F4A69 /* MOMachOSymtabLoadCommand.h in Headers */,
+				5B19D77C161E29BB005F4A69 /* MOMachOLoadCommandFactory.h in Headers */,
+				5B19D781161E2C17005F4A69 /* MOMachOSymbol.h in Headers */,
+				5B19D785161E2D59005F4A69 /* MOMachOSymbolTable.h in Headers */,
+				5B19D78B161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.h in Headers */,
+				5B19D78F161E3629005F4A69 /* MOMachOSegmentLoadCommand.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +325,7 @@
 		5B19D70B161E1404005F4A69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MO;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Martin Johannesson";
 			};
@@ -264,6 +388,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B19D727161E1404005F4A69 /* MachOKit.m in Sources */,
+				5B19D749161E1529005F4A69 /* MOMemoryMappedFile.m in Sources */,
+				5B19D74E161E179A005F4A69 /* MOBinary.m in Sources */,
+				5B19D764161E2559005F4A69 /* MOMachO.m in Sources */,
+				5B19D768161E2801005F4A69 /* MOMachOSection.m in Sources */,
+				5B19D76D161E28F2005F4A69 /* MOMachOLoadCommand.m in Sources */,
+				5B19D771161E2976005F4A69 /* MOMachOUUIDLoadCommand.m in Sources */,
+				5B19D779161E29A9005F4A69 /* MOMachOSymtabLoadCommand.m in Sources */,
+				5B19D77D161E29BB005F4A69 /* MOMachOLoadCommandFactory.m in Sources */,
+				5B19D782161E2C17005F4A69 /* MOMachOSymbol.m in Sources */,
+				5B19D786161E2D59005F4A69 /* MOMachOSymbolTable.m in Sources */,
+				5B19D788161E336C005F4A69 /* MOMachOiOSVersionMinLoadCommand.m in Sources */,
+				5B19D78C161E3567005F4A69 /* MOMachOOSXVersionMinLoadCommand.m in Sources */,
+				5B19D790161E3629005F4A69 /* MOMachOSegmentLoadCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
